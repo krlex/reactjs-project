@@ -1,23 +1,17 @@
 import React from 'react'
-import logo from '../logo.svg'
 
-function Header() {
+function MainContent() {
+    const  firstName = "Mister"
+    const  lastName = "Testeroni"
+    const  date = new Date()
+
     return(
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    )
+      <main className="navbar">This is a my {`${firstName } ${lastName}`}
+       <div>
+          <h2> It is currently about {date.getHours() % 12} o'clock</h2>
+       </div>
+      </main>
+      )
 }
 
-export default Header
+export default MainContent
