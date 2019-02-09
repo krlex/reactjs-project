@@ -1,9 +1,10 @@
 import React from 'react'
+import ContactCard from './ContactCard'
 
 function Footer() {
     return(
       <footer>
-        <h2>this is a my footer element</h2>
+        <ContactCard />
       </footer>
     )
 }
