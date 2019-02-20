@@ -3,7 +3,7 @@ import Footer from './components/landing/Footer'
 import Header from './components/landing/Header'
 import MainContent from './components/landing/MainContent'
 import ToDoApp from './components/todo/ToDoApp'
-import todosData from './components/todo/todosData'
+import Product from './components/product/App'
 import './App.css';
 
 class App extends Component {
